@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+ 
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+.players-details{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    margin-bottom: 27px;
+    width:1050px;
+   
+}
+main{
+   
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:165px;
+}
+.player-image{
+    width:300px;
+    height:256px;
+    
+}
+.player{
+    
+    height:474px;
+    box-shadow:0px 0px 20px 5px rgb(236, 234, 230);
+    width:330px;
+    
+    
+    
+    
+}
+ .player-info{
+    padding:15px 15px 15px 15px;
+    
+}
+/* .player img{
+    margin:15px 15px 0px 15px;
+    
+}  */
+.player h1{
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom:5px;
+    /* padding-left: 15px; */
+    
+}
+.player p{
+    font-size:15px;
+    margin-top:0px;
+    /* padding-left: 15px; */
+    color:#6C6C6C;
+    
+}
+.top-section-container{
+    width:100%;
+    background-color: #2D25A0;
+    display:flex;
+    margin-bottom: 70px;
+}
+
+.top-section-heading{
+    width:485px;
+    height:300px;
+    padding:100px 50px 200px 156px;
+    
+}
+.top-section-container:hover .top-section-heading{
+    animation: header-animation 3s ease-in-out;
+}
+@keyframes header-animation {
+    from{
+        
+        opacity:0.1;
+        transform:translateY(-40px);
+    }
+    to{
+        
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.top-section-img{
+    width:556px;
+    height:456px;
+    padding: 85px 0px 100px 54px;
+}
+.top-section-container:hover .top-section-img{
+    animation:top-image-animation 3s ease-in-out;
+}
+@keyframes top-image-animation {
+    from{
+        
+        opacity:0.1;
+        transform:translateX(60px);
+    }
+    to{
+        
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+.top-section-heading h1{
+    color:whitesmoke;
+    font-size: 64px;
+    
+}
+.top-section-img img{
+    width:556px;
+    height:438px;
+}
+.button-design{
+    text-decoration: none;
+    color:whitesmoke;
+    background-color: crimson;
+    padding:10px 24px;
+}
+.button-design:hover{
+    animation:button-animate 2s ease-in-out;
+}
+@keyframes button-animate {
+    from{
+        background-color: whitesmoke;
+        color:black;
+    }
+    to{
+        background-color: crimson;
+        color:white;
+    }
+}
+.button-design i{
+    width:24px;
+    height:24px;
+    padding-left: 8px;
+}
+
+
+/*   ----------
+         Video section style 
+     --------     */
+.video-container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin:100px 210px 20px 145px;
+    grid-gap:20px;
+
+}
+.heading-video-section{
+    display:block;
+    background-image: linear-gradient(crimson,rgb(80, 4, 4));
+    color:rgb(238, 235, 235);
+    text-align: center;
+    
+}
+.video-box{
+    width:30%;
+    
+}
+
+/* Footer section style */
+
+
+.footer-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top:160px;
+}
+.footer-logo-image{
+    width:483px;
+    height:110px;
+
+}
+.footer-social-icons{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 14px;
+    margin-bottom: 20px;
+    color:gray;
+
+}
