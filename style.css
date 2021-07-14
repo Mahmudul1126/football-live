@@ -6,7 +6,7 @@ body{
     margin:0;
 }
 header{
-    background-color: #2D25A0;
+    background-color: yellowgreen;
 }
 
 .top-section-container{
@@ -178,7 +178,7 @@ main{
 }
 .sign-up-heading{
     font-size: 40px;
-    color:lightblue;
+    color:black;
     text-align: center;
     margin:60px 0px;
 }
